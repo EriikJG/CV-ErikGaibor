@@ -1,0 +1,136 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px 70px;
+      background: #f0f8ff;
+      color: #333;
+  }
+
+  header {
+      background: #003366;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+  }
+
+  .photo {
+      text-align: center;
+  }
+
+  .photo img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid #003366;
+  }
+
+  .section {
+      margin-top: 20px;
+  }
+
+  .section h2 {
+      color: #003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 5px;
+  }
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+  }
+
+  table,
+  th,
+  td {
+      border: 1px solid #003366;
+  }
+
+  th,
+  td {
+      padding: 10px;
+      text-align: left;
+  }
+
+  th {
+      background: #003366;
+      color: white;
+  }
+
+  .video-container {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  video {
+      width: 100%;
+      max-width: 600px;
+      border: 3px solid #003366;
+  }
+
+  footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+  }
+
+  .button-cv {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #003366;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .button-cv:hover {
+      background-color: #0a4178;
+      transform: scale(1.1);
+  }
+
+  .project-container {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+  }
+
+  .project-item {
+      text-align: center;
+      padding: 20px;
+      background-color: #003366;
+      ;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(21, 208, 52, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      width: 150px;
+  }
+
+  .project-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 12px rgba(221, 72, 72, 0.2);
+  }
+
+  .project-icon {
+      font-size: 50px;
+      color: #f9f1f1;
+      transition: color 0.3s ease;
+  }
+
+  .project-item p {
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #fefcfc;
+  }
